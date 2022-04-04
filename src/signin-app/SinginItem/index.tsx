@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 type SignInItemProps = {
   placeholder: string;
   setInput: (value: string) => void;

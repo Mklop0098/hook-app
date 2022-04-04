@@ -37,7 +37,6 @@ export const LoginForm: React.FC<LoginFormProps> = (props) => {
       <SignInItem placeholder="Username" setInput={setNameUser} value={name} />
       <SignInItem placeholder="Password" setInput={setPassword} value={pass} />
       <button onClick={() => props.onChange(name, pass)}>Login</button>
-
       <Link to="/">
         <button>Home</button>
       </Link>
